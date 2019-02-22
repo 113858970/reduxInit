@@ -7,6 +7,7 @@ import todoReducer from './reducers/index.js'
 
 let store = createStore(todoReducer, compose(window.devToolsExtension && window.devToolsExtension()));
 
+//开发东西。。。。。
 
 render(
   <Provider store={store}>
